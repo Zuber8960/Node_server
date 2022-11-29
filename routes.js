@@ -12,6 +12,7 @@ const requestHandler = (req, res) => {
             } else {
                 console.log(data);
             }
+            
 
             res.write('<html>');
             res.write('<head><title>Enter Massage</title></head>');
@@ -37,6 +38,7 @@ const requestHandler = (req, res) => {
             });
         })
 
+
     } else {
         res.setHeader('Content-Type', 'text/html');
         res.write('<html>');
@@ -57,6 +59,10 @@ const requestHandler = (req, res) => {
 
 // module.exports.handler = requestHandler;
 // module.exports.text = 'some ard coded text';
+
+
+
+
 
 exports.handler=requestHandler;
 exports.text = 'some text in it';

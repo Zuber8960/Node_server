@@ -1,0 +1,24 @@
+{
+  "name": "task_node",
+  "version": "1.0.0",
+  "description": "Node JS Guide",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js",
+    "start-server": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zuber8960/Node_server.git"
+  },
+  "author": "Zuber Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zuber8960/Node_server/issues"
+  },
+  "homepage": "https://github.com/Zuber8960/Node_server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
